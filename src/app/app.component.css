@@ -1,0 +1,15 @@
+#contenedor
+{
+    width: 1000px;
+    margin: auto;
+}
+
+#cabecera
+{
+    height: 330px;
+}
+
+#cuerpo
+{
+    height: 420px;
+}

@@ -1,0 +1,31 @@
+p
+{
+    font-family: monospace;
+    font-size: 40px;
+    margin: 20px;
+}
+
+button
+{
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 2rem;
+}
+
+#info
+{
+    margin-top: 10px;
+    width: 885px;
+}
+
+#texto
+{
+    font-family: monospace;
+    font-size: 20px;
+    font-style:inherit;
+}
+
+#caja
+{
+    width: 1000px;
+}
