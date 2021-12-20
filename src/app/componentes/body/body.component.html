@@ -1,6 +1,9 @@
 <div id="caja">
-    <p>Estudiante de Programación en la UTN</p>
-    <p>Desarrollador Full Stack Trainee C# .NET</p>
+    <div id="parrafos">
+        <div class="mat-display-2">Estudiante de Programación en la UTN</div>
+        <div class="mat-display-2">Desarrollador Full Stack Trainee C# .NET</div>
+        
+    </div>
     <button mat-raised-button color="primary" (click)="GetInfoPersonal()">Informacion personal </button>
     <button mat-raised-button color="primary"(click)="GetAcercaDeMi()"> Acerca de mi </button>
     <button mat-raised-button color="primary"(click)="GetConocimientos()"> Conocimientos </button>
@@ -9,11 +12,12 @@
         <mat-card-content>
             <table>
                 <tr *ngFor="let item of Info">
-                    <td id="texto">
+                    <td class="mat-display-1"id="texto">
                         {{item}}
                     </td>
                 </tr>
             </table>
         </mat-card-content>
     </mat-card>
+
 </div>

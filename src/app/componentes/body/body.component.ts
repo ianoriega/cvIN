@@ -19,10 +19,14 @@ export class BodyComponent implements OnInit {
     this.Info = 
     [
       "Nombre: Iñaki Andres Noriega",
+      " "," ",
       "Edad: 32 años",
+      " "," ",
       "Domicilio: Wilde, Avellaneda, Buenos Aires",
       "Nacionalidad: Argentina",
+      " "," ",
       "Telefono: 15 6902 1342",
+      " "," ",
       "Email: iandresnoriega@gmail.com"
     ];
   }

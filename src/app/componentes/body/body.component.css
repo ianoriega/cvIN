@@ -1,31 +1,42 @@
+#parrafos
+{
+    margin-top: 5%;
+    
+}
+
 p
 {
     font-family: monospace;
-    font-size: 40px;
-    margin: 20px;
+    font-size: 250%;
+    margin-top: 3%;
+    
 }
 
 button
 {
     font-family: monospace;
-    font-size: 20px;
-    margin-right: 2rem;
+    font-size: 15px;
+    margin-right: 3rem;
+    margin-top: 3%;
 }
 
 #info
 {
     margin-top: 10px;
-    width: 885px;
+    width: 100%;
 }
 
 #texto
 {
     font-family: monospace;
-    font-size: 20px;
-    font-style:inherit;
+    font-size: 180%;
+    font-style: inherit;
+
 }
+
 
 #caja
 {
-    width: 1000px;
+    margin-top: 1%;
+    height: 100%;
 }
